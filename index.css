@@ -1,0 +1,58 @@
+*{
+	/*Default Font*/
+font-family: 'Roboto', sans-serif;
+}
+
+h1,h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+img {
+	height: 250px;
+	width:  250px;
+}
+
+#landing{
+	height: 80vh;
+	/*center the content (image, heading, and paragraph) horizontally and verticll using flexbox*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.jumbotron {
+	background-color: transparent;
+}
+
+#gallery {
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	border-radius: 6px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+h2 {
+	color: #007bff;
+}
+
+.tools {
+	padding: 25px; /*space inside the element*/
+	border: 5px solid #f2f2f2;
+	margin: 20px; /*space outside the element*/
+	height: 200px;
+	width: 75%;
+}
+
+html {
+	scroll-behavior: smooth;
+}
